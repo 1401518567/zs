@@ -7,11 +7,11 @@
  * - If you are using a E5 Subscription OneDrive for Business account, the direct links of your files are not the same here.
  *   In which case you would need to change directLinkRegex.
  */
-
 module.exports = {
-  // The clientId and clientSecret are used to authenticate the user with Microsoft Graph API using OAuth.
-  // If you are an E5 developer subscriber, set them in Vercel's environment variables `CLIENT_ID` and `CLIENT_SECRET`
-  // You would not need to change anything here if you can authenticate with your personal Microsoft account with OneDrive International.
+  // The clientId and clientSecret are used to authenticate the user with Microsoft Graph API using OAuth. You would
+  // not need to change anything here if you can authenticate with your personal Microsoft account with OneDrive International.
+  clientId: '09faf37f-3797-4564-a8e8-013d9a20d1c8',
+  obfuscatedClientSecret: 'U2FsdGVkX19C+LSPwtUPKzdRLjCGnswg3qGe5jz91TAiJ3GwlQ06HxXodV6ZdOj3tplX3/18pn/az+l22XHjeg==',
 
   // The redirectUri is the URL that the user will be redirected to after they have authenticated with Microsoft Graph API.
   // Likewise, you would not need to change redirectUri if you are using your personal Microsoft account with OneDrive International.
